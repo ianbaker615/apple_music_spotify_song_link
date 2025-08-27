@@ -31,14 +31,15 @@ A Discord bot that automatically converts Apple Music links to Spotify links and
 ### 2. Invite the Bot to Your Server
 
 1. In the Discord Developer Portal, go to "OAuth2" > "URL Generator"
-2. Select the following scopes:
+2. Under "Scopes", select:
    - `bot`
-3. Select the following bot permissions:
+3. Under "Bot Permissions", select:
    - Send Messages
    - Read Messages/View Channels
    - Read Message History
-4. Copy the generated URL and open it in your browser
-5. Select your server and authorize the bot
+4. **Integration Type**: Select "Guild Install" (for server-wide bot functionality)
+5. Copy the generated URL and open it in your browser
+6. Select your server and authorize the bot
 
 ### 3. Install and Configure the Bot
 
